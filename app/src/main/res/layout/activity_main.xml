@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RxJava1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/rx1_back_pressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back Pressure "
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/rx1_back_pressure_strategy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BackPressure Strategy"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RxJava2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/rx2_back_pressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back Pressure "
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/rx2_back_pressure_strategy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BackPressure Strategy"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map VS FlatMap" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/rx_map_flatmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Face Detect"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+</LinearLayout>
